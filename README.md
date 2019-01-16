@@ -8,12 +8,15 @@ We are expecting to evaluate follow criteria:
 3. Readability
 4. Maintainability
 5. Testability
-Backend Requirements:
+-------------------------------------------------------------------------------------------------
+
+## Backend Requirements:
 1. Create this solution as a Console application
 2. There is no UI but console would be user-friendly information what the user needs to do it.
 3. Solution must have unit tests
 4. Push your solution in a GitHub repository, and send us a link when done
-Rules:
+-------------------------------------------------------------------------------------------------
+## Rules:
 1. You must enter time of day as “morning” or “night”
 2. You must enter a comma delimited list of dish types with at least one selection
 3. The output must print food in the following order: entrée, side, drink, dessert
@@ -23,13 +26,15 @@ Rules:
 7. In the morning, you can order multiple cups of coffee
 8. At night, you can have multiple orders of potatoes
 9. Except for the above rules, you can only order 1 of each dish type
+-------------------------------------------------------------------------------------------------
 Dishes for Each time of day
 Dish Type morning night
 1 (entrée) eggs steak
 2 (side) Toast potato
 3 (drink) coffee wine
 4 (dessert) Not Applicable cake
-Sample Input and Output:
+-------------------------------------------------------------------------------------------------
+## Sample Input and Output:
 Input: morning, 1, 2, 3 Output: eggs, toast, coffee
 Input: morning, 2, 1, 3 Output: eggs, toast, coffee
 Input: morning, 1, 2, 3, 4 Output: eggs, toast, coffee, error
